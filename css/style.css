@@ -1,0 +1,70 @@
+@import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=News+Cycle:400,700);
+
+body {
+    font: 14px/1.4 'News Cycle', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 5.5em;
+    font-weight: 100;
+    line-height: .85em;
+    text-shadow: 0 2px rgb(36, 199, 248);
+}
+
+h2 {
+    margin: 2em 3em 2em .5em;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+p {
+    margin: 1em 0 1em;
+}
+
+a {
+    background: rgba(36, 199, 248, .25);
+    text-decoration: none;
+    color: #000;
+    padding: 0 3px 2px;
+}
+
+a:hover {
+    background: rgb(36, 199, 248);
+}
+
+code {
+    margin: 0 2px 0 0;
+    padding: 0 2px 2px;
+    background: #eee;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+}
+
+.container {
+    width: 800px;
+    margin: 50px auto 0;
+}
+
+header {
+    width: 270px;
+    float: left;
+    position: static;
+}
+
+section {
+    width: 450px;
+    float: right;
+    padding: 30px 0 0 0;
+}
+
+.gomez.tiny {
+    font-size: 3px;
+}
+
+.gomez.medium {
+    font-size: 6px;
+}
+
+.gomez.large {
+    font-size: 9px;
+}
